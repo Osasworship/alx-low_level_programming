@@ -5,10 +5,10 @@
  * including the terminating null byte, to the
  * buffer pointed to be dest
  * @dest: destination
- * @scr: source
+ * @src: source
  * Return: the pointer destination
  */
-char *_strcpy(char *dest, char *scr)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
